@@ -1,0 +1,11 @@
+React 19
+
+* - title Dinamico por componentes - link por componentes (Preload)
+* - DefaulProps no va mas
+* - ForwardRef ya no se usa,  es posible pasar la ref de un componente por parametro.
+* - use -> para fetch y para context -> de forma condicional.
+* - useTransition -> para transiciones asincronas. (isPending y funcion asincrona)
+* - useActionState -> Permite controllar la accion de un formulario.
+* - useFormStatus -> Permite Acceder a datos y estados del formulario padre que usa action
+* - useOptimistic -> Permite ser optimista con una promesa y dar por hecho que se efectuo de manera correcta en caso contrario se implementa un rollback
+
