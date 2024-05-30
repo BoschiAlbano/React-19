@@ -22,8 +22,6 @@ function App() {
 
     return (
         <main class="center">
-            <Version />
-
             {!show && (
                 <button
                     style={{ height: "50px" }}
@@ -37,11 +35,15 @@ function App() {
 
             {show && (
                 <div class="center gap">
+                    <Version />
+
                     <section>
                         <h1>link CDN Preload</h1>
                         <p>
-                            title Dinamico por componentes - link por
-                            componentes (Preload)
+                            title Dinamico por componentes - Preload - para
+                            mayor rendimiento se realiza una pre-carga y luego
+                            se la usa cundo sea necesario. de esta manera se
+                            carga primero el js y depues el css (recurso)
                         </p>
                         <Form />
                     </section>
